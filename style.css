@@ -1,3 +1,105 @@
+
+.markyWorks{
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+    width: 80%;
+}
+/* style the cards to have a shadow border and utilize a background picture */
+    .markyWorks-card1 {
+    height: 500px;
+    width: 400px;
+        
+     background-image: url(https://m.media-amazon.com/images/M/MV5BMTkzMzgzMTc1OF5BMl5BanBnXkFtZTgwNjQ4MzE0NjM@._V1_SY1000_CR0,0,678,1000_AL_.jpg);
+     background-repeat: no-repeat;
+     background-size: contain;
+     align-content: space-around;
+     margin: 1em 1em 1em 1em;
+
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+.markyWorks-card1:hover {
+    background: url(https://m.media-amazon.com/images/M/MV5BMTc0MDA2Njc0OF5BMl5BanBnXkFtZTcwNzc3NDU3Mw@@._V1_.jpg) no-repeat; 
+    background-size: contain;
+  }
+  .markyWorks-card2 {
+    height: 500px;
+    width: 400px;
+ background: url(https://m.media-amazon.com/images/M/MV5BMTkzMDIxMjM3MF5BMl5BanBnXkFtZTgwNjMwMDE3MjI@._V1_SY1000_CR0,0,681,1000_AL_.jpg);
+ background-repeat: no-repeat;
+ background-size: contain;
+
+align-content: space-around;
+
+margin: 1em 1em 1em 1em;
+
+/* Add shadows to create the "card" effect */
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+transition: 0.3s;
+}
+.markyWorks-card2:hover {
+background: url(https://i.pinimg.com/originals/da/4b/b1/da4bb170617b77ce2beaa05134f9609b.jpg); 
+background-repeat: no-repeat;
+background-size: contain; 
+ 
+}
+
+.markyWorks-card3 {
+    height: 500px;
+    width: 400px;
+    
+ background: url(https://m.media-amazon.com/images/M/MV5BNDA4Nzc1OTg2OV5BMl5BanBnXkFtZTgwODE3ODgwNDI@._V1_SY1000_CR0,0,674,1000_AL_.jpg);
+ background-repeat: no-repeat;
+ background-size: contain;
+align-content: space-around;
+margin: 1em 1em 1em 1em;
+
+/* Add shadows to create the "card" effect */
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+transition: 0.3s;
+}
+.markyWorks-card3:hover {
+background: url(https://m.media-amazon.com/images/M/MV5BMTMxMDIzMDEzNF5BMl5BanBnXkFtZTcwODcxMjE2Mg@@._V1_UY317_CR2,0,214,317_AL_.jpg);
+background-repeat: no-repeat;
+background-size: contain; 
+object-fit: contain;
+}
+
+  
+  /* On mouse-over, add a deeper shadow */
+  .markyWorks-card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  /* Add some padding inside the card container */
+  .markyWorks-container {
+    padding: 2px 16px;
+    text-align: center;
+  }
+  .markyAwards {
+      display:flex;
+      flex-wrap: wrap;
+      align-content: space-around;
+  }
+
+  .markyAwards_element{
+    width:30%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 25px;
+    transition: 0.3s;
+    margin: 1em 1em 1em 1em;
+    text-align: center;
+
+  }
+  .markyAwards_element p{
+margin: 0;  
+}
+.markyAwards_element:hover{
+    margin: 0; 
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2); 
+    }
 .navigation {
     width: 100%;
 	float: right;
@@ -65,8 +167,9 @@
     flex-direction: row;
     justify-content: right;
 }
+    
 
-  /* Create single column (Appearances) */
+/* Create single column (Appearances) */
   .fake {
     float: left;
     width: 100%;
@@ -107,4 +210,8 @@
   div.center {
     text-align: center;
     background-color: white
+  }
+
+  .active { 
+    background-color: lightblue;
   }
