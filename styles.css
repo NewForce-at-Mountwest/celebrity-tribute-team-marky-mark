@@ -6,17 +6,17 @@ body {
 .marky-family {
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-evenly;
-    margin-bottom: 200px;
+    justify-content: space-around;
+    margin: 50px 10px 200px 10px;
 }
 
 .marky-family_card {
     /* Add shadows to create the "card" effect */
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
-    flex-basis: 15%;
+    flex-basis: 13%;
     background-color: rgb(119, 144, 255);
-    
+    margin-right: 0;
   }
   
   /* On mouse-over, add a deeper shadow */
@@ -39,9 +39,12 @@ body {
   
   /* Add rounded corners to the top left and the top right corner of the image */
   img {
-    border  -radius: 5px 5px 0 0;
-    height: 50%;
+    border-radius: 5px 5px 0 0;
+    height: 70%;
     width: auto;
+  }
+  .active { 
+    background-color: purple;
   }
 
 
