@@ -169,13 +169,7 @@ margin: 0;
 }
     
 
-
-/* {
-     box-sizing: border-box; 
-  } */
-  
-
-  /* Create single column (Appearances) */
+/* Create single column (Appearances) */
   .fake {
     float: left;
     width: 100%;
@@ -187,6 +181,7 @@ margin: 0;
     float: left;
     width: 33.33%;
     padding: 10px;
+    box-sizing: border-box;
   }
   
   /* Clear floats after the [Media] columns */
