@@ -65,3 +65,49 @@
     flex-direction: row;
     justify-content: right;
 }
+
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Create single column (Appearances) */
+  .fake {
+    float: left;
+    width: 100%;
+    padding: 10px;
+  }
+  
+  /* Create three equal columns (Media Releases) that floats next to each other */
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+  }
+  
+  /* Clear floats after the [Media] columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Line between sections */
+  hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+  }
+  
+  /* Image borders */
+  img { 
+    border:2px solid black;
+  }
+  
+  div.center {
+    text-align: center;
+    background-color: white
+  }
