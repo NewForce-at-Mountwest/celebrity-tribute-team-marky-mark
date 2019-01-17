@@ -167,16 +167,14 @@ margin: 0;
     flex-direction: row;
     justify-content: right;
 }
-
-.active{
-    background:  yellow;
     
 
-}
+
 /* {
      box-sizing: border-box; 
   } */
   
+
   /* Create single column (Appearances) */
   .fake {
     float: left;
@@ -219,3 +217,6 @@ margin: 0;
     background-color: white
   }
 
+  .active { 
+    background-color: lightblue;
+  }
