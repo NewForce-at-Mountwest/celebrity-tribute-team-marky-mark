@@ -65,11 +65,11 @@
     flex-direction: row;
     justify-content: right;
 }
-
+/* 
 * {
     box-sizing: border-box;
   }
-  
+   */
   /* Create single column (Appearances) */
   .fake {
     float: left;
@@ -110,4 +110,8 @@
   div.center {
     text-align: center;
     background-color: white
+  }
+
+  .active { 
+    background-color: lightblue;
   }
