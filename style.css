@@ -1,10 +1,31 @@
+
 .markyWorks{
     display: flex;
+    flex-direction: row;
     align-content: space-around;
+    width: 80%;
 }
-.markyWorks-section{
-    border: 1px solid black;
+.markyWorks-card{
+    align-content: space-around;
+    
+    margin: 1em 1em 1em 1em;
+
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
 }
+
+  
+  /* On mouse-over, add a deeper shadow */
+  .markyWorks-card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  /* Add some padding inside the card container */
+  .markyWorks-container {
+    padding: 2px 16px;
+  }
+
 
 .markyCollab{
     display: flex;
@@ -14,8 +35,10 @@
 
 .markyCollab-card {
     /* Add shadows to create the "card" effect */
+    width: 20%;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
+    margin: 1em 1em 1em 1em;
   }
   
   /* On mouse-over, add a deeper shadow */
@@ -24,6 +47,6 @@
   }
   
   /* Add some padding inside the card container */
-  .container {
+  .markyCollab-container {
     padding: 2px 16px;
   }
