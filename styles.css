@@ -8,6 +8,7 @@ body {
     flex-flow: row wrap;
     justify-content: space-around;
     margin: 50px 10px 200px 10px;
+    padding: 40px;
 }
 
 .marky-family_card {
@@ -48,5 +49,14 @@ body {
     background-color: lightblue;
   }
 
-
+  .marky-info {
+    display: inline-block;
+    margin: 50px;
+    padding: 25px;
+    /* border: 1px solid black; */
+  }
+.immediate {
+  margin: 50px;
+  padding: 25px; 
+}
 
