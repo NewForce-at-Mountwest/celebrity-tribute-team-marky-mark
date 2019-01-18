@@ -53,7 +53,7 @@ body {
     display: inline-block;
     margin: 25px;
     padding: 10px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
   }
 .immediate {
   margin: 50px 0 25px 0;
@@ -69,10 +69,12 @@ body {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     border-radius: 25px;
     transition: 0.3s;
-    margin: 1em 1em 1em 1em;
+    margin:auto;
     text-align: center;
-    background-color: lightblue;
     
+    background-color: lightblue;
+    width: 23vw;
+    padding: 15px 0px;
     
   }
 
