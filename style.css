@@ -1,3 +1,8 @@
+/* Added Shadow Border to Home and Newsfeed Pages */
+.marky-mark-exec-pic{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
 
 .markyWorks{
     display: flex;
@@ -169,14 +174,14 @@ margin: 0;
 }
     
 
-/* Create single column (Appearances) */
+/* Newsfeed: Create single column (Appearances) */
   .fake {
     float: left;
     width: 100%;
     padding: 10px;
   }
   
-  /* Create three equal columns (Media Releases) that floats next to each other */
+  /* Newsfeed: Create three equal columns (Media Releases) that floats next to each other */
   .column {
     float: left;
     width: 33.33%;
@@ -184,14 +189,14 @@ margin: 0;
     box-sizing: border-box;
   }
   
-  /* Clear floats after the [Media] columns */
+  /* Newsfeed: Clear floats after the [Media] columns */
   .row:after {
     content: "";
     display: table;
     clear: both;
   }
   
-  /* Line between sections */
+  /* Newsfeed: Line between sections */
   hr { 
     display: block;
     margin-top: 0.5em;
@@ -202,14 +207,11 @@ margin: 0;
     border-width: 1px;
   }
   
-  /* Image borders */
-  img { 
-    border:2px solid black;
-  }
+  /* Newsfeed: Image borders */
   
   div.center {
     text-align: center;
-    background-color: white
+    background-color: lightblue;
   }
 
   .active { 
