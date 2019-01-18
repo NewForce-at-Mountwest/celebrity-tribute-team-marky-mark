@@ -6,7 +6,7 @@ body {
 .marky-family {
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
     margin: 50px 10px 200px 10px;
     padding: 40px;
 }
@@ -15,14 +15,14 @@ body {
     /* Add shadows to create the "card" effect */
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
-    flex-basis: 13%;
+    flex-basis: 17%;
     background-color:lightblue;
-    margin-right: 0;
+    margin: 0% 3% 2% 3%;
   }
   
   /* On mouse-over, add a deeper shadow */
   .marky-family_card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 16px 32px 0 rgba(0,0,0,0.2);
   }
   
   Add some padding inside the card container
@@ -56,7 +56,12 @@ body {
     /* border: 1px solid black; */
   }
 .immediate {
-  margin: 50px;
+  margin: 50px 0 25px 0;
   padding: 25px; 
 }
+  .marky-family_card { 
+    transition: all .2s ease-in-out; }
+  .marky-family_card:hover { transform: scale(1.1); }
+
+
 
