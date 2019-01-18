@@ -206,7 +206,8 @@ body {
                 color:  #414141;
                 background-color: rgb(236, 236, 236);
                 font-family: 'Oxygen', sans-serif;}
-.center: {
+.center: { text-align: center;
+            
     
 }
   /* styling for social media links   */
