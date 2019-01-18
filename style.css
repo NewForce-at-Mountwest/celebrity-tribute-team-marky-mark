@@ -1,10 +1,17 @@
-
+/* BACKGROUND COLOR OF ALL PAGES */
+body {
+    color:  #414141;
+    background-color: rgb(236, 236, 236);
+    font-family: 'Oxygen', sans-serif;
+}
+/* STYLE FOR pictures  */
 .markyWorks{
     display: flex;
     flex-direction: row;
     align-content: space-around;
     width: 80%;
 }
+
 /* style the cards to have a shadow border and utilize a background picture */
     .markyWorks-card1 {
     height: 500px;
@@ -169,7 +176,13 @@ margin: 0;
 }
     
 
-/* Create single column (Appearances) */
+
+/* {
+     box-sizing: border-box; 
+  } */
+  
+
+  /* Create single column (Appearances) */
   .fake {
     float: left;
     width: 100%;
@@ -202,10 +215,10 @@ margin: 0;
     border-width: 1px;
   }
   
-  /* Image borders */
+  /* Image borders
   img { 
     border:2px solid black;
-  }
+  } */
   
   div.center {
     text-align: center;
