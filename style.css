@@ -1,13 +1,4 @@
-.collab     {
-    text-align: center;
-    list-style-position: inside;
-}
-/* BACKGROUND COLOR OF ALL PAGES */
-body {
-    color:  #414141;
-    background-color: rgb(236, 236, 236);
-    font-family: 'Oxygen', sans-serif;
-}
+
 /* STYLE FOR pictures  */
 .markyWorks{
     display: flex;
@@ -15,32 +6,12 @@ body {
     align-content: space-around;
     width: 80%;
 }
-.headings-index {
-    /* text-shadow: 2px 2px 5px blue; */
-    color: white;
-  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
-    
-}
-/* added box shadow effect */
-.marky-mark-exec-pic {
-        width: 400px;
-        height: 500px;
-        border:2px solid #fff;
-        background: url(https://s-media-cache-ak0.pinimg.com/736x/07/3b/e3/073be3c6dddaf2b122b04ba28324011f.jpg) no-repeat;
-        box-shadow: 10px 10px 5px #ccc;
-        -moz-box-shadow: 10px 10px 5px #ccc;
-        -webkit-box-shadow: 10px 10px 5px #ccc;
-        -khtml-box-shadow: 10px 10px 5px #ccc;
-        }
-}
-
 /* style the cards to have a shadow border and utilize a background picture */
 
 .markyWorks-card1 {
   height: 300px;
   width: 200px;
-  
-background: url(images/mile22.jpg);
+  background: url(images/mile22.jpg);
 background-repeat: no-repeat;
 background-size: contain;
 align-content: space-around;
@@ -145,7 +116,7 @@ object-fit: contain;
 
 
   
-  /* Add some padding inside the card container */
+/* Add some padding inside the card container */
   .markyWorks-container {
     padding: 2px 16px;
     text-align: center;
@@ -208,6 +179,36 @@ margin: 0;
 .navigation li a:hover {
 	color: #c00;
     background-color: #fff; }
+
+.headings-index {
+        /* text-shadow: 2px 2px 5px blue; */
+        color: white;
+      text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+        
+    }
+    /* added box shadow effect */
+.marky-mark-exec-pic {
+            width: 400px;
+            height: 500px;
+            border:2px solid #fff;
+            background: url(https://s-media-cache-ak0.pinimg.com/736x/07/3b/e3/073be3c6dddaf2b122b04ba28324011f.jpg) no-repeat;
+            box-shadow: 10px 10px 5px #ccc;
+            -moz-box-shadow: 10px 10px 5px #ccc;
+            -webkit-box-shadow: 10px 10px 5px #ccc;
+            -khtml-box-shadow: 10px 10px 5px #ccc;
+            }
+.collab     {
+                text-align: center;
+                list-style-position: inside;
+            }
+            /* BACKGROUND COLOR OF ALL PAGES */
+body {
+                color:  #414141;
+                background-color: rgb(236, 236, 236);
+                font-family: 'Oxygen', sans-serif;}
+.center: {
+    
+}
   /* styling for social media links   */
 .fa {
     padding: 20px;
