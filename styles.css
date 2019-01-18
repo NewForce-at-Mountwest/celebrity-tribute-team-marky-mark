@@ -51,8 +51,8 @@ body {
 
   .marky-info {
     display: inline-block;
-    margin: 50px;
-    padding: 25px;
+    margin: 25px;
+    padding: 10px;
     border: 1px solid black;
   }
 .immediate {
@@ -66,17 +66,18 @@ body {
 
 
   .marky-info_p{
-    width:30%;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     border-radius: 25px;
     transition: 0.3s;
     margin: 1em 1em 1em 1em;
     text-align: center;
     background-color: lightblue;
-    padding: 25px 25px 25px 25px;
+    
     
   }
 
 .marky-info p {
 margin: 0;  
+text-overflow: hidden; 
+white-space: nowrap;
 }
