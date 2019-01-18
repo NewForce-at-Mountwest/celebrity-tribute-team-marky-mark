@@ -6,7 +6,29 @@
     width: 80%;
 }
 /* style the cards to have a shadow border and utilize a background picture */
-    .markyWorks-card1 {
+
+.markyWorks-card1 {
+  height: 300px;
+  width: 200px;
+  
+background: url(images/mile22.jpg);
+repeat: no-repeat;
+background-size: contain;
+align-content: space-around;
+margin: 1em 1em 1em 1em;
+
+/* Add shadows to create the "card" effect */
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+transition: 0.3s;
+}
+.markyWorks-card1:hover {
+background: url(images/marky_gun_sq.jpg);
+background-repeat: no-repeat;
+background-size: contain; 
+object-fit: contain;
+
+  }
+    .markyWorks-card2 {
     height: 300px;
     width: 200px;
         
@@ -20,11 +42,13 @@
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
 }
-.markyWorks-card1:hover {
+
+
+.markyWorks-card2:hover {
     background: url(images/marky_rose_sq.jpg) no-repeat; 
     background-size: contain;
   }
-  .markyWorks-card2 {
+  .markyWorks-card3 {
     height: 300px;
     width: 200px;
  background: url(images/ballers.jpg);
@@ -39,14 +63,14 @@ margin: 1em 1em 1em 1em;
 box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 transition: 0.3s;
 }
-.markyWorks-card2:hover {
+.markyWorks-card3:hover {
 background: url(images/marky_dwayne_sq.jpg); 
 background-repeat: no-repeat;
 background-size: contain; 
  
 }
 
-.markyWorks-card3 {
+.markyWorks-card4 {
     height: 300px;
     width: 200px;
     
@@ -60,18 +84,37 @@ margin: 1em 1em 1em 1em;
 box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 transition: 0.3s;
 }
-.markyWorks-card3:hover {
+.markyWorks-card4:hover {
 background: url(images/marky_willy_sq.jpg);
 background-repeat: no-repeat;
 background-size: contain; 
 object-fit: contain;
 }
 
+
+.markyWorks-card5 {
+  height: 300px;
+  width: 200px;
   
-  /* On mouse-over, add a deeper shadow */
-  .markyWorks-card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-  }
+background: url(images/money.jpg);
+repeat: no-repeat;
+background-size: contain;
+align-content: space-around;
+margin: 1em 1em 1em 1em;
+
+/* Add shadows to create the "card" effect */
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+transition: 0.3s;
+}
+.markyWorks-card5:hover {
+background: url(images/marky_money_sq.jpg);
+background-repeat: no-repeat;
+background-size: contain; 
+object-fit: contain;
+}
+
+
+
   
   /* Add some padding inside the card container */
   .markyWorks-container {
