@@ -139,6 +139,7 @@ object-fit: contain;
 .markyWorks-card5 {
 height: 300px;
 width: 200px;
+
 /*show main image on page load  */
 background: url(images/money.jpg);
 background-repeat: no-repeat;
