@@ -267,9 +267,15 @@ margin: 0;
     animation:blinkingText 5.5s infinite;
   }
   @keyframes blinkingText{
-    0%{	color: #000;	}
-    25%{	color: transparent;	}
+    0%{	  color: #069;	}
     50%{	color: transparent;	}
-    25%{	color:transparent;	}
-    100%{	color: #000;	}
+    75%{	color: transparent;	}
+    50%{	color:transparent;	}
+    100%{	color: #069;	}
   }
+
+  /* Newsfeed Picture Settings */
+.newsfeed-pictures{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: all .2s ease-in-out;
+}
