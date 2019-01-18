@@ -21,7 +21,7 @@ body {
   
   /* On mouse-over, add a deeper shadow */
   .marky-family_card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 16px 32px 0 rgba(0,0,0,0.2);
   }
   
   Add some padding inside the card container
@@ -47,6 +47,10 @@ body {
   .active { 
     background-color: lightblue;
   }
+
+  .marky-family_card { 
+    transition: all .2s ease-in-out; }
+  .marky-family_card:hover { transform: scale(1.1); }
 
 
 
