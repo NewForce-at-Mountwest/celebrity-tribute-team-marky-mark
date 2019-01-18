@@ -1,3 +1,9 @@
+/* change width of intro section to display  */
+.markyIntro {
+  margin-left: 2em;
+  width: 65%;
+  text-align: justify;
+  }
 
 /* Create flex container for Marky's skills */
 .markySkills {
