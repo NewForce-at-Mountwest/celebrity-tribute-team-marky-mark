@@ -12,7 +12,7 @@
   width: 200px;
   
 background: url(images/mile22.jpg);
-repeat: no-repeat;
+background-repeat: no-repeat;
 background-size: contain;
 align-content: space-around;
 margin: 1em 1em 1em 1em;
@@ -75,7 +75,7 @@ background-size: contain;
     width: 200px;
     
  background: url(images/daddys_home.jpg);
- repeat: no-repeat;
+ background-repeat: no-repeat;
  background-size: contain;
 align-content: space-around;
 margin: 1em 1em 1em 1em;
@@ -97,7 +97,7 @@ object-fit: contain;
   width: 200px;
   
 background: url(images/money.jpg);
-repeat: no-repeat;
+background-repeat: no-repeat;
 background-size: contain;
 align-content: space-around;
 margin: 1em 1em 1em 1em;
