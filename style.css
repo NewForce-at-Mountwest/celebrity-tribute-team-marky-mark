@@ -1,9 +1,36 @@
-/* change width of intro section to display  */
+/* change width of intro section to display and create a flexbox  */
 .markyIntro {
-  margin-left: 2em;
-  width: 65%;
-  text-align: justify;
-  }
+/* display: flex;
+flex-direction: row; */
+/* align-items: top; */
+margin-left: 2em;
+width: 65%;
+}
+
+/* Cause image to float left */
+.markyIntro-pic{
+float:left;
+margin-right: 2em;
+border: black solid 1px;
+margin-bottom: 1em;
+margin-top: 1em;
+}
+
+/* justified text to flow to the right of the image */
+.markyIntro-text {
+/* margin-left: 1em; */
+padding: 0em;
+vertical-align: top;
+/* padding-left: 1em; */
+align-self: flex-start;
+/* justify-content: justify; */
+margin-top: 0;
+/* temp command to see edges of box */
+border: black solid 1px;
+}
+.markyH2 {
+  padding-top: 1em;
+}
 
 /* STYLE FOR pictures  */
 /* Create flex container for Marky's skills */
@@ -33,7 +60,10 @@ display: flex;
 flex-direction: row;
 flex-wrap: wrap;
 align-content: space-around;
-width: 80%;
+width: 90%;
+/* test border to see edges of box */
+border: black solid 1px;
+
 }
 
 /* set background color on movie title box */
@@ -57,6 +87,7 @@ margin:1em 0em 0em 0em;
 .markyWorks-card1 {
 height: 300px;
 width: 200px;
+
 /*show main image on page load  */
 background: url(images/mile22.jpg);
 background-repeat: no-repeat;
@@ -75,8 +106,8 @@ background: url(images/marky_gun_sq.jpg);
 background-repeat: no-repeat;
 background-size: contain; 
 object-fit: contain;
-
 }
+
 .markyWorks-card2 {
 height: 300px;
 width: 200px;
