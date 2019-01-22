@@ -64,7 +64,7 @@
   width: 90%;
   /* test border to see edges of box */
   /* border: black solid 1px; */
-  
+
   }
   
   /* set background color on movie title box */
@@ -386,30 +386,35 @@
   justify-content: right;
   }
   
-  /* Create single column (Appearances) */
-  .fake {
+  
+  
+  /* Newsfeed: Create single column (Appearances) */
+ /* Create single column (Appearances) */
+ .fake {
   float: left;
   width: 100%;
   padding: 10px;
-  }
-  
-  /* Create three equal columns (Media Releases) that floats next to each other */
-  .column {
+  text-align: justify;
+}
+
+/* Newsfeed: Create three equal columns (Media Releases) that floats next to each other */
+.column {
   float: left;
   width: 33.33%;
   padding: 10px;
   box-sizing: border-box;
-  }
-  
-  /* Clear floats after the [Media] columns */
-  .row:after {
+  text-align: justify;
+}
+
+/* Newsfeed: Clear floats after the [Media] columns */
+.row:after {
   content: "";
   display: table;
   clear: both;
-  }
-  
-  /* Line between sections */
-  hr { 
+}
+
+/* Newsfeed: Line between sections */
+hr { 
   display: block;
   margin-top: 0.5em;
   margin-bottom: 0.5em;
@@ -417,19 +422,29 @@
   margin-right: auto;
   border-style: inset;
   border-width: 1px;
-  }
-  
-  /* Image borders
-  img { 
+}
+
+/* Newsfeed: Image borders */
+/* Image borders
+img { 
   border:2px solid black;
-  } */
-  
-  div.center {
+} */
+
+div.center {
   text-align: center;
-  background-color: white
-  }
-  
-  .active { 
   background-color: lightblue;
-  }
-  
+}
+.active { 
+  background-color: lightblue;
+}
+/* Newsfeed: Blinking Title*/
+.blinking{
+  animation:blinkingText 5.5s infinite;
+}
+@keyframes blinkingText{
+  0%{   color: #069;  }
+  50%{    color: transparent; }
+  75%{    color: transparent; }
+  50%{    color:transparent;  }
+  100%{   color: #069;    }
+}
